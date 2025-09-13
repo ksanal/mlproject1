@@ -1,0 +1,12 @@
+pipeline {
+    agents any
+    stages{
+        stage("Cloning github repo to jenkin"){
+            steps{
+                echo 'Cloning the repo..'
+                echo 'cloning github repo...'
+                
+            }
+        }
+    }
+}
